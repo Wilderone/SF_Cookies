@@ -1,0 +1,25 @@
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hidden {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+.checks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.checks input {
+    margin-top: 10px;
+    margin-right: 7px;
+}
